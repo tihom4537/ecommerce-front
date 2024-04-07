@@ -8,10 +8,10 @@ export default function HomePage({featuredProduct,newProducts}) {
   return (
     <div>
 
-      'hi there' 
-      {/* <Header />
+      
+      <Header />
       <Featured product={featuredProduct} />
-      <NewProducts products={newProducts} /> */}
+      <NewProducts products={newProducts} />
     </div>
   );
 }

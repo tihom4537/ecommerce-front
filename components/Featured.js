@@ -67,10 +67,10 @@ export default function Featured({product}) {
         <ColumnsWrapper>
           <Column>
             <div>
-              <Title>{product.title}</Title>
-              <Desc>{product.description}</Desc>
+              <Title>title:Abhishek Raj Ecommerce site</Title>
+              <Desc>description: Very unquie site </Desc>
               <ButtonsWrapper>
-                <ButtonLink href={'/product/'+product._id} outline={1} white={1}>Read more</ButtonLink>
+                {/* <ButtonLink href={'/product/'+product._id} outline={1} white={1}>Read more</ButtonLink> */}
                 <Button white onClick={addFeaturedToCart}>
                   <CartIcon />
                   Add to cart
