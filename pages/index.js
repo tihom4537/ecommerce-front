@@ -7,9 +7,11 @@ import NewProducts from "@/components/NewProducts";
 export default function HomePage({featuredProduct,newProducts}) {
   return (
     <div>
-      <Header />
+
+      'hi there' 
+      {/* <Header />
       <Featured product={featuredProduct} />
-      <NewProducts products={newProducts} />
+      <NewProducts products={newProducts} /> */}
     </div>
   );
 }
